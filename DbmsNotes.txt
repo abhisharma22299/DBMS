@@ -1,0 +1,81 @@
+-------------------------------------------------DATABASE MANAGAMENT SYSTEM--------------------------------------------------------------------------------------------------------------------------------------------- 
+
+
+Data : is a collection of raw bytes. data is a collection of raw , unorganized facts and details like text , observation
+       , figure , symbols and description of things etc 
+       in other words , data does not carry any specfic purpose and has no siginficance by itself .
+       Data can be recorded and doesn't have any meaning unless processed 
+image :  is a collection of bytes
+Integer : is a collection of bytes
+ byte is a collection of pixels 
+
+	
+DB : 	Store the data or persist the data 
+MS : set of program 
+     -> access -> add -> update -> delete 
+
+Dbms : is a collection of interrelated data and a set of program to access those data . the collection of data 
+       usually refered to as the database , contains information relevant to an enterprise . The primary  goal 
+       of dbms 	is to provide 	a way to store and retrive database information that is both convienient and 
+       efficent .
+A DBms is the database itself among with all the software and functionality. It is used to perform different 
+operation like addtion ,access,delete,update of data .
+
+// Abstraction : is a process by which we hiding the details from the user and showing only releavant data .
+   Tally : is business software gst calculation 
+
+-> view of data (Three Schema Architecture ) : the major purpose of DBMS is to provide users with an abstract view of the data 
+                                           . That is the system hides certain details of how the data is stored and maintained . 
+   * To simplify user interaction with the system , abstraction is applied through several levels of abstraction 
+   * The Main objective of three level architecture is to enable multiple users to access the same data with a personalized view 
+     while storing the underlying data only onece .
+
+-> (Three Schema Architecture ) : 
+   Schema is design template how it is see : it has physical schema which describes physical storage structure of DB
+* physical level / Internal level (how data is stored in the phycial level)
+* Logical level / Conceptual level : The concepatual schema describe the design of a database at the conceptual level 	describes 
+              what data are stored in Db and what is relationships exist amnong those data.
+-> User at logical level does not need to be aware about physical-level structure.
+-> DBA , who must decide what information to keep in the DB use the logical level of abstraction.
+-> Goal : easy to use 
+
+* View level / External level  : 
+-> Highest level of abstraction aims to simplify users interaction with he system by providing 
+   differnt view to differnt end-user.
+-> Each view schema describes the database paprt that a particular user group is intersted and
+   hides the remaining database from  that user group
+-> At the extrnal level a database contains several schemas that sometimese called as subschema.
+   the subschema is used to describe the differnet view of the database.
+-> At view also provide a security mechanism to prevent users from accessing ceratin parts of DB.
+
+  
+
+// Run length encoding  compressing the img 1mb to 50kb
+
+
+
+// instace of db means number of rows in the data at the given particular time 
+// consistancy strain means that Name not be null 
+
+// DataModels 
+* provides a way to describe  the design of db at logical level 
+* Underlying the structure of db is the Data Model , a collection of conceptual tool for describing data, data relationships , data semantics & constraints ex er model,relational model 
+   , object -oriented model ,etc
+
+
+// Database Language 
+
+DDL (Data defination Language ) to specify the database schema means that it define student naeme , roll number , and other required details 
+
+DML (Data manipulation Language ) retrival insertion deletion 
+
+// Query language , a part of DML to specify statement requesting the retrieval of information 
+
+// How App access DB? 
+
+// DBMS appication architecture 
+
+ t1 architecute : end user , db server , db 
+ t2 architecture : app is particaly into 2 components ,client machine wchich invikoes DB system functionality at server end through query language statement 
+  t3 architecute  
+
